@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<br>
+<input type="text" id="tudien" placeholder="nhap tu can tra cuu di ban">
+<br>
+<button type="button" onclick="tracuu()">tracuu</button>
+<p id="hienthitracuu"></p>
+</br>
+</form>
+<script>
+    var mangTa = ["dog","array"];
+    var mangTv = ["con cho","mang"];
+    var t;
+
+    function tracuu() {
+        t = document.getElementById("tudien").value;
+
+        for (i = 0; i < mangTv.length; i++) {
+            if (t === mangTa[i]) {
+                document.write(mangTv[i]);
+
+                break;
+            }
+            else {
+                alert("deoconhecutdi");
+            }
+        }
+    }
+
+</script>
+</body>
+</html>

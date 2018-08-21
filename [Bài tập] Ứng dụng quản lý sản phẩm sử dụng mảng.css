@@ -1,0 +1,72 @@
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 30%;
+}
+div {
+    display: block;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+input[type=text] {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}input {
+     -webkit-appearance: textfield;
+     background-color: white;
+     -webkit-rtl-ordering: logical;
+     cursor: text;
+     padding: 1px;
+     border-width: 2px;
+     border-style: inset;
+     border-color: initial;
+     border-image: initial;
+ }
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 11px system-ui;
+}
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+input[type='submit'], button, [aria-label] {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+th {
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+}
+
+th1 {
+    font-weight: bold;
+    text-align: right;
+    margin-left: 50px;
+}
+
+table{
+    
+}

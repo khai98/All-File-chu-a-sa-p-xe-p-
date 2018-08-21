@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Hàm kiểm tra số nguyên tố</title>
+</head>
+<body>
+<script>
+
+    var i, n, nt = 1;
+
+    function nguyento(x) {
+        if (x == 1 || x == 2) nt = 1;
+        if (x > 2) {
+            for (i = 2; i <= Math.sqrt(x); i++) {
+                if (x % i == 0) {
+                    nt = 0;
+                    break;
+                }
+            }
+        }
+        return nt;
+    }
+
+    n = prompt("nhap gia tri n:");
+    if (nguyento(n) == 1) {
+        document.write(n + " la so nuyen to  ")
+
+    }
+    else {
+        document.write(n + "khong la so nguyen to")
+    }
+</script>
+
+</body>
+</html>

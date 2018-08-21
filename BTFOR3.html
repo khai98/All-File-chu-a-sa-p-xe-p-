@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    for (var x = 1; x <= 100; x++) {
+        if (x % 3 === 0) {
+            document.write("FIZZ - ")
+        } else {
+            if (x % 5 === 0) {
+                document.write("Buzz - ")
+            } else {
+
+                if (x % 5 === 0 && x % 3 === 0) {
+                    document.write("FiezzBuzz - ")
+
+                } else {
+                    document.write(x + " -  ")
+                }
+
+            }
+        }
+    }
+
+</script>
+
+</body>
+</html>

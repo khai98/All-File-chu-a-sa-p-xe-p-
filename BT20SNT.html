@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var n1 = 0;
+    var n2 = 1;
+    var n3;
+    var i;
+    document.write("--" + n1 + "<br> ");
+    document.write("--" + n2 + "<br> ");
+
+    for (i = 2; i <= 100; i++) {
+        n3 = n2 + n1;
+        document.write("--" + n3 + "<br>");
+        n1 = n2
+        n2 = n3
+    }
+
+
+</script>
+
+</body>
+</html>
